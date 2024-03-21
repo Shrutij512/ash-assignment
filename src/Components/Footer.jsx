@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='sm:w-[60%] md:w-[50%] lg:w-[45%]'>
                 <div className='text-center mb-2'>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_aqXJr9IOfMKmDRwqUK1HrXWqk0QPZtD6Q&usqp=CAU" alt="" className='w-[30%] ml-[35%] mix-blend-color-burn' />
-                    <p className='text-3xl font-bold'>Trophy Nig .</p>
+                    <p className='text-xl md:text-2xl lg:text-3xl font-bold'>Trophy Nig .</p>
                     <p className='text-sm text-gray-600'>Property Limited</p>
                 </div>
                 <div>
