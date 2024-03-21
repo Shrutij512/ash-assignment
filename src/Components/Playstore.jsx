@@ -7,15 +7,15 @@ const Playstore = () => {
     return (
         <div className='playstore-div flex bg-gray-100 m-[10%] p-[3%] text-left h-[290px]'>
             <div>
-                <p className='text-3xl font-semibold '>Download Trophy Nig. App</p>
+                <p className='text-xl md:text-2xl lg:text-3xl font-semibold '>Download Trophy Nig. App</p>
                 <p >And never miss out any update</p>
-                <div className='text-xl flex mt-4'>
+                <div className='text-md md:text-lg lg:text-xl flex mt-4'>
                     <FcCheckmark />
                     <p className='ml-1'>
                         Get to know about newly posted Properties as soon as they are posted
                     </p>
                 </div>
-                <div className='text-xl flex mt-2'>
+                <div className='text-md md:text-lg lg:text-xl flex mt-2'>
                     <FcCheckmark />
                     <p className='ml-1'>
                         Manage your Properties with ease and instant alerts about Properties
@@ -26,7 +26,7 @@ const Playstore = () => {
                 </div>
             </div>
             <div>
-                <img src={phone} alt="phone" className='ml-[25%] mt-[5%]' />
+                <img src={phone} alt="phone" className='phone md:ml-[5%] md:mt-[29%] lg:ml-[25%] lg:mt-[5%]' />
             </div>
         </div>
     )

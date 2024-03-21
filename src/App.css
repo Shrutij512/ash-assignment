@@ -14,6 +14,41 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.designer-div:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .playstore-div {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width:1024px) and (max-width:1115px) {
+    .rating-div img {
+        width: 50%;
+        height: 135%;
+    }
+    .phone {
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .designer-div {
+        width: 90%;
+        margin: 10%;
+    }
+    .phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .secton-1 {
+        height: 48rem;
+    }
+    .designer-div:hover {
+        box-shadow: none;
+    }
 }

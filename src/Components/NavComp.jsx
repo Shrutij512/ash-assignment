@@ -1,6 +1,7 @@
 import React from 'react'
 import { LuUserCircle2 } from "react-icons/lu";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { IoMdMenu } from "react-icons/io";
 
 const NavComp = () => {
     return (
@@ -10,8 +11,9 @@ const NavComp = () => {
                 <p className='text-green-600 text-3xl font-bold'>Trophy Nig .</p>
                 <p className='text-sm'>Property Limited</p>
             </div>
+            <IoMdMenu className='text-4xl block md:hidden lg:hidden' />
             <div className='flex'>
-                <ul className='flex gap-10 text-md text-green-600 font-semibold text-center '>
+                <ul className='hidden sm:hidden md:flex md:gap-5 lg:flex gap-10 text-md text-green-600 font-semibold text-center '>
                     <li >Home</li>
                     <li >Properties</li>
                     <li >Designs</li>

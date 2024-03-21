@@ -8,8 +8,8 @@ import { TbAddressBook } from "react-icons/tb";
 
 const Footer = () => {
     return (
-        <div className='grid grid-cols-3 bg-green-500 text-white p-10 text-left pl-[10%]'>
-            <div className='w-[45%]'>
+        <div className='block sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 bg-green-500 text-white p-10 text-left pl-[10%]'>
+            <div className='sm:w-[60%] md:w-[50%] lg:w-[45%]'>
                 <div className='text-center mb-2'>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_aqXJr9IOfMKmDRwqUK1HrXWqk0QPZtD6Q&usqp=CAU" alt="" className='w-[30%] ml-[35%] mix-blend-color-burn' />
                     <p className='text-3xl font-bold'>Trophy Nig .</p>
