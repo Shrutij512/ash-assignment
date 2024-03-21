@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.secton-1 {
+    background-image: url("./images/backgroundImg.jpg");
+    background-size: cover;
+    height: 42rem;
+}
+
+.card-div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.playstore-div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
