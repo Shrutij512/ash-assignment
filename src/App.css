@@ -40,7 +40,6 @@
 
 @media screen and (max-width:768px) {
     .designer-div {
-        width: 90%;
         width: 100%;
     }
     .phone {
@@ -51,6 +50,10 @@
 @media screen and (max-width:540px) {
     .secton-1 {
         height: 48rem;
+    }
+    .designer-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     .designer-div:hover {
         box-shadow: none;
