@@ -29,7 +29,7 @@ const NavComp = () => {
             </div>
             {/* responsive menu */}
             <ul className={`absolute duration-500 md:hidden w-[150px] text-white bg-black top-[70px] 
-            ${toggle ? 'right-0' : 'right-[-100%]'}
+            ${toggle ? 'right-0' : 'left-[-100%]'}
             `}>
                 <li className='p-3'>Home</li>
                 <li className='p-3'>Properties</li>
